@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.topnav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+    /* to make anv abr stick to the top and after scrollign too */
+    position: sticky;
+    top: 0px;
+    color: white;
+    width: 100%;
+    opacity: 0.8;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color:#f9004d;
+    font-weight: bolder;
+    padding: 5px 20px;
+    margin:0px 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color:black;
+    cursor: pointer;
+    color: #f9004d;
+    opacity: ;
+}
+#logo a:hover{
+    background-color:black;
+
+}
+/* to make button for hire me */
+.btn{
+    border-radius: 20px;
+    color: white;
+    background-color:#f9004d;
+}
+.btn:hover{
+    color: white;
+    background-color:black;
+}
+/* to make chirag more attractive */
+.logo{
+   font-size: 35px;
+   cursor: pointer; 
+}
+span{
+    color:#f9004d;
+}
+/* for hero section */
+.hero-section{
+    background: url(/css/chirag/pexels-emma-li-5391865.jpg) no-repeat center center/cover;
+    height: 100vh;
+   
+    color:#FCD9B8;
+    flex-direction:row;
+
+    
+    
+}
+/* for all the text inside of hero section */
+.txt{
+    
+    justify-content:start;
+    align-items:center;
+     position: absolute;
+     top: 35%;
+    left:10%;
+    margin-bottom: -170px;
+   
+}
+.txt h4{
+    font-family: monospace;
+    font-size:25px;
+    margin-top:20px;
+    margin-bottom:;
+}
+.txt h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:20px 0px 20px;
+    font-size: 75px;
+
+}
+/* about section */
+.about{
+    width:auto;
+    height: 100vh;
+    color: #FCD9B8;
+    background:url(/css/chirag/pexels-emma-li-5400806.jpg);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about img{
+    height: auto;
+    width: 350px;
+    opacity: 0.4;
+}
+.abouttxt{
+    width: 550px;
+}
+/* to style text in about section */
+.about h2{
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.about h5{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.about span{
+    color: #f9004d;
+}
+.about p{
+    font-size: 19px;
+    
+}
+/* for services */
+.mainservices{
+    height: 100vh;
+    color: #FCD9B8;
+    width: auto;
+    background: url(/css/chirag/pexels-emma-li-5428549.jpg)no-repeat center center/cover;
+}
+.subheading h2{
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: -40px;
+    cursor: pointer;
+}
+/* for box in which all the content is bada box */
+.card{
+    height:400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    /* border to get an idea how to shift */
+     /* border: 1px solid red */
+    
+}
+/* 3 boxes for serivces */
+.box{
+    height: 365px;
+    width: 365px;
+    padding:20px 35px;
+    background: #191911;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+/* for icons in box */
+.box i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+.box h5{
+    font-size: 25px;
+    margin-bottom:15px;    
+}
+.pa{
+    font-size: 15px;
+    color: #c2c1c1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px 0px;
+}
+
+
+/* for skillss */
+.skills{
+    height: 100vh;
+    color: #FCD9B8;
+    width: auto;
+    
+    background: url(/css/chirag/pexels-emma-li-5428549.jpg)no-repeat center center/cover;
+}
+.subheading h2{
+    font-size: 75px;
+    text-align: center;
+    padding-top:30px;
+    cursor: pointer;
+    
+}
+/* for box in which all the content is bada box */
+.card{
+    height:400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    /* border to get an idea how to shift */
+     /* border: 1px solid red */
+    
+}
+/* 4 boxes for skills*/
+.box{
+    height: 365px;
+    width: 365px;
+    padding:20px 35px;
+    background: #191911;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+/* for icons in box */
+.box i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+}
+.box h5{
+    font-size: 25px;
+    margin-bottom:15px;    
+}
+.pa{
+    font-size: 15px;
+    color: #c2c1c1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px 0px;
+}
+/* for styling of icons of boxes and hover */
+#java{
+    color: aqua;
+    padding-bottom: 10px;
+}
+#java:hover{
+    opacity: 0.5;
+    background-color: #191911;
+    color: #f9004d;
+}
+
+#html{
+    color: blue;
+}
+#html:hover{
+    opacity: 0.5;
+    background-color: #191911;
+    color: red;
+    
+}
+#css{
+    color: orange;
+}
+#css:hover{
+    opacity: 0.5;
+    background-color: #191911;
+    color: gold;
+}
+#sql{
+    color:whitesmoke
+}
+#sql:hover{
+    opacity: 0.5;
+    background-color: #191911;
+    color:chartreuse;
+}
+.star{
+    margin-top:20px ;
+    font-size: 15px;
+}
+.stardesign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* for hire me  */
+.enquiry{
+    width: auto;
+    height:60vh;
+    background: url(/css/chirag/pexels-samarth-singhai-1010079.jpg)no-repeat center center/cover;
+    color: bisque;
+}
+.enquiry form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* for all the tags like input */
+.tags{
+    border-radius: 40px;
+    opacity: 0.5;
+    width: 60vh;
+    height: 10vh;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+    color: #191911;
+}
+
+/* for submit btn */
+#submit{
+    width: 80px;
+    height: 30px;
+    font-style:oblique;
+    padding: auto;
+    margin: auto;
+    background-color: black;
+    cursor: pointer;
+    
+}
+/* for text area */
+.enquiry textarea{
+    resize: none;
+    scrollbar-width:none;
+}
+/* for heading */
+.enquiry h4{
+    font-size: 30px;
+    padding-top:px;
+    padding-left:40px;
+
+    
+}
+.enquiry h3{
+    font-size: 50px;
+    padding-left:40px;
+}
+/* for footer  */
+.contact{
+    width: auto;
+    height: 30vh;
+    background: url(/css/chirag/pexels-emma-li-5400806.jpg)no-repeat bottom;
+    padding: auto;
+}
+.contact h4{
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: #FCD9B8;
+}
+.contact p{
+    color: #c2c1c1;
+    padding-left: 591px;
+}
+.connectwithme{
+    display: flex;
+    justify-content: space-around;
+    padding-top:80px;
+    
+}
+/* for copy right and year alignmnet */
+#copy{
+    font-size: 15px;
+    color: #FCD9B8;
+}
+
